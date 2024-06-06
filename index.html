@@ -11,17 +11,19 @@
         <div id="container">
             <h1>Table Generator</h1>
             <span>Enter a number</span>
-            <input type="number" name="" id="table">
+            <input type="number" name="" id="table" placeholder="Enter a Number">
             <span>Enter a Table range</span>
-            <input type="number" name="" id="range">
-            <button>Generate</button>
-        </div>
-        <div id="tablebox">
-            <p></p>
+            <input type="number" name="" id="range" placeholder="Enter a range" required>
+            <button onclick="tableGenerate();">Generate</button>
+            <div id="tablebox">
+                <p id="showtable"></p>
+            </div>
         </div>
     </div>
 
 
     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 </html>
