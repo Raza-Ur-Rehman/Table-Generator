@@ -5,7 +5,7 @@ function tableGenerate() {
     let tableBox = document.getElementById('tablebox');
     // let show = document.getElementById('showtable');
 
-    if (range <= '') {
+    if (input, range <= '') {
         Swal.fire({
             icon: "error",
             title: "Invaild",
@@ -13,13 +13,11 @@ function tableGenerate() {
         });
     } else {
         for (let i = 1; i <= range; i++) {
-            tableBox.innerHTML += `<p id="showtable">${input} * ${i} = ${input * i}</p> `;
-            
+            tableBox.innerHTML += `<p id="showtable">${input} x ${i} = ${input * i}</p> `;
 
-
-            console.log();
         }
-    }
+    }return;
+    // window.location.reload();
 }
 
 
