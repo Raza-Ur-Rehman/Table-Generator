@@ -5,7 +5,7 @@ function tableGenerate() {
     let tableBox = document.getElementById('tablebox');
     // let show = document.getElementById('showtable');
 
-    if (input, range <= '') {
+    if (input <= '') {
         Swal.fire({
             icon: "error",
             title: "Invaild",
