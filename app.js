@@ -16,7 +16,7 @@ function tableGenerate() {
             tableBox.innerHTML = `<p id="showtable">${input} x ${i} = ${input * i}</p> `;
 
         }
-    }return;
+    }
     // window.location.reload();
 }
 
