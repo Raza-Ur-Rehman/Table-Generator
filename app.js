@@ -3,7 +3,7 @@ function tableGenerate() {
     let input = document.getElementById('table');
     let range = document.getElementById('range');
     let tableBox = document.getElementById('tablebox');
-    // let show = document.getElementById('showtable');
+    let show = document.getElementById('showtable');
 
     if (input.value <= '') {
         Swal.fire({
@@ -13,12 +13,12 @@ function tableGenerate() {
         });
     } else {
         for (let i = 1; i <= range.value; i++) {
-            tableBox.innerHTML += `<p id="showtable">${input} x ${i} = ${input * i}</p> `;
+            tableBox.innerHTML += `<p id="showtable">${input.value} x ${i} = ${input.value * i}</p> `;
         }
         
     }
-    
-    
+    // tableBox = "";
+
 }
 
 
