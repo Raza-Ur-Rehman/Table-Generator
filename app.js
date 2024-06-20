@@ -13,7 +13,7 @@ function tableGenerate() {
         });
     } else {
         for (let i = 1; i <= range; i++) {
-            tableBox.innerHTML += `<p id="showtable">${input} x ${i} = ${input * i}</p> `;
+            tableBox.innerHTML = `<p id="showtable">${input} x ${i} = ${input * i}</p> `;
 
         }
     }return;
