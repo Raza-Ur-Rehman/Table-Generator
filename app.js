@@ -17,7 +17,8 @@ function tableGenerate() {
         }
         
     }
-    show.style.display = "none" 
+
+    
 
 }
 
